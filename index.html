@@ -12,6 +12,7 @@
             max-width: 210mm;
             padding: 20px;
             text-align: justify;
+            overflow-x: hidden; /* ป้องกันการขยับซ้ายขวา */
         }
         h1 {
             font-weight: bold;
@@ -36,9 +37,22 @@
         ul li{
             list-style-type: disc;
         }
+        @media (max-width: 768px) {
+            body {
+                max-width: 600px;
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                max-width: 400px;
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+            }
+        }
         @media (max-width: 375px) {
             body {
-                margin-left: 40px;
+                max-width: 400px;
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
             }
         }
 </style>
