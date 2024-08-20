@@ -2,771 +2,339 @@
 <html lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bitkub Term of Service</title>
+    <title>bitkub Privacy Policy</title>
     <style>
+        .LogoBitkub {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .LogoBitkub img {
+            height: 200%;
+            max-width: 200%;
+        }
+        .footerBitkub {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footerBitkub img {
+            height: 200%;
+            max-width: 200%;
+        }
         body {
-    font-family: "Times New Roman", Times, serif;
-    line-height: 1.5;
-    margin: 0 auto;
-    text-align: justify;
-    max-width: 210mm; 
-    padding: 20px;
-    box-sizing: border-box; 
-    overflow-x: hidden; 
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.5;
+            margin: 0 auto;
+            text-align: justify;
+            max-width: 210mm;
+            padding: 20px;
+            overflow-y: auto; /* ป้องกันการขยับซ้ายขวา */
+            overflow-x: hidden; /* อนุญาตให้เลื่อนในแกน X */
+        }
+        body::-webkit-scrollbar {
+        display: none;
+        }   
+        h1 {
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+            font-size: 24px;
+        }
+        h2 {
+            font-weight: bold;
+            margin: 18px 0;
+            font-size: 20px;
+        }
+        .detail {
+            font-size: 20px;
+        }
+        li {
+            font-size: 20px;
+        }
+        ol ol li {
+            list-style-type: none;
+            padding-left: 5px;
+        }
+        ol{
+            padding-left: 5px;
+        }
+        ul li {
+            list-style-type: disc;
+        }
+        @media (max-width: 820px) {
+            body {
+                max-width: 80%; /* ใช้เต็มจอ */
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+                
+            }
+            .LogoBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .footerBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .detail {
+                font-size: 14px;
+            }
+            li {
+                font-size: 14px;
+            }
+            ul{
+                padding-left: 15px;
+            }
+        }
+        @media (max-width: 768px) {
+            body {
+                max-width: 80%; /* ใช้เต็มจอ */
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+                
+            }
+            .LogoBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .footerBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .detail {
+                font-size: 14px;
+            }
+            li {
+                font-size: 14px;
+            }
+            ul{
+                padding-left: 15px;
+            }
+        }
+        @media (max-width: 480px) {
+            body {
+                max-width: 80%; /* ใช้เต็มจอ */
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+            }
+            .LogoBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .footerBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            .detail {
+                font-size: 12px;
+            }
+            li {
+                font-size: 12px;
+            }
+            ul{
+                padding-left: 15px;
+            }
+        }
+        @media (max-width: 375px) {
+            body {
+                max-width: 80%; /* ใช้เต็มจอ */
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+                word-wrap: break-word; /* ตัดบรรทัดใหม่ถ้าคำยาวเกิน */
+                overflow-wrap: break-word; /* ตัดบรรทัดใหม่เมื่อคำยาวเกิน */
+            }
+            .LogoBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .footerBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 18px;
+            }
+            h2 {
+                font-size: 16px;
+            }
+            .detail {
+                font-size: 14px;
+            }
+            li {
+                font-size: 14px;
+            }
+            ul{
+                padding-left: 15px;
+            }
+        }
+        
+        @media (max-width: 344px) {
+    body {
+        max-width: 80%; /* ใช้เต็มจอ */
+        margin: 0 auto;
     }
-    body::-webkit-scrollbar {
-            display: none;
-            } 
+    .LogoBitkub {
+        width: 63%; /* ปรับขนาดให้เล็กลง */
+        margin: 0 auto;
+    }
+    .footerBitkub {
+        width: 63%;
+        margin: 0 auto;
+    }
     h1 {
-        font-weight: bold;
-        text-align: center;
-        margin: 20px 0;
-        font-size: 24px;
+        font-size: 14px; /* ลดขนาดฟอนต์ */
     }
-
     h2 {
-        font-weight: bold;
-        margin: 18px 0;
-        font-size: 20px;
+        font-size: 12px;
     }
-
     .detail {
-        font-size: 20px;
+        font-size: 10px;
     }
-
     li {
-        font-size: 20px;
-    }
-
-    ol ol li {
-        list-style-type: none;
-    }
-
-    ul li {
-        list-style-type: disc;
+        font-size: 10px;
     }
     ul{
-            padding-left: 10px;
-        }
-    @media (max-width: 820px) {
-        body {
-            max-width: 80%;
-            margin: 0 auto; /* ทำให้กลางหน้าจอ */
-        }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            font-size: 20px;
-        }
-
-        h2 {
-            font-weight: bold;
-            margin: 18px 0;
-            font-size: 18px;
-        }
-
-        .detail {
-            font-size: 18px;
-        }
-
-        li {
-            font-size: 18px;
-        }
+        padding-left: 15px;
     }
-    @media (max-width: 768px) {
-        body {
-            max-width: 80%;
-            margin: 0 auto; /* ทำให้กลางหน้าจอ */
-        }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            font-size: 20px;
-        }
+    
+}
 
-        h2 {
-            font-weight: bold;
-            margin: 18px 0;
-            font-size: 18px;
-        }
 
-        .detail {
-            font-size: 18px;
-        }
-
-        li {
-            font-size: 18px;
-        }
-    }
-
-    @media (max-width: 480px) {
-        body {
-            max-width: 90%;
-            margin: 0 auto; /* ทำให้กลางหน้าจอ */
-        }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            font-size: 18px;
-        }
-
-        h2 {
-            font-weight: bold;
-            margin: 18px 0;
-            font-size: 16px;
-        }
-
-        .detail {
-            font-size: 16px;
-        }
-
-        li {
-            font-size: 16px;
-        }
-        ul{
-            padding-left: 10px;
-        }
-    }
-
-    @media (max-width: 375px) {
-        body {
-            max-width: 90%;
-            margin: 0 auto; /* ทำให้กลางหน้าจอ */
-        }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            font-size: 18px;
-        }
-
-        h2 {
-            font-weight: bold;
-            margin: 18px 0;
-            font-size: 16px;
-        }
-
-        .detail {
-            font-size: 16px;
-        }
-
-        li {
-            font-size: 16px;
-        }
-        ul{
-            padding-left: 10px;
-        }
-    }
-    @media (max-width: 344px) {
-        body {
-            max-width: 90%;
-            margin: 0 auto; /* ทำให้กลางหน้าจอ */
-        }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            font-size: 16px;
-        }
-
-        h2 {
-            font-weight: bold;
-            margin: 18px 0;
-            font-size: 14px;
-        }
-
-        .detail {
-            font-size: 14px;
-        }
-
-        li {
-            font-size: 14px;
-        }
-
-        ul{
-            padding-left: 10px;
-        }
-    }
 </style>
+<head>
+    <div class="LogoBitkub"><img src="logo_bitkub.png" alt="logo_bitkub"></div>
+</head>
     <body>
-        <h1>Term of Service</h1>
+        <h1>Privacy Policy</h1>
         <div class="detail">
-            This Terms of Service (this “<strong>TOS</strong>”) constitutes a legally binding agreement made between you as 
-            the user of KUB Arena (“<strong>you</strong>”, "<strong>your</strong>", or the “<strong>User</strong>”), and Bitkub Blockchain Technology Co., 
-            Ltd., the company incorporated and registered in Thailand ("<strong>we</strong>","<strong>us</strong>", "<strong>our</strong>" or "<strong>Bitkub</strong>").  
-            <br><br>
-            KUB Arena is the Location-based Augmented Reality Mobile Game which is the side game of 
-            Bitkub Metaverse. 
-            <br>
-            <h2>1.Definition</h2>
-            <strong>“Affiliates”</strong> means a juristic person, any juristic person that, directly or indirectly, Controls, is Controlled by, or is under common Control with, the first person.
-            <br><br><strong>“Alleged Infringing Copyright Material”</strong> shall have the meaning as specified in Clause 4.5(2).
-            <br><br><strong>“Applicable Law”</strong> means all legally binding laws, statutes, regulations, subordinate legislation, by-laws, orders and decrees of any governmental authority, and any judgments, decisions and injunctions of any court or tribunal, in each case having jurisdiction over the matter in question.  
-            <br><br><strong>“Bitkub Chain”</strong> means the Blockchain infrastructure service provided by Bitkub.
-            <br><br><strong>“Bitkub NEXT”</strong> means the decentralized Digital Asset wallet service provided by Bitkub which is compatible with KUB Arena. 
-            <br><br><strong>“Blockchain”</strong> means an immutable digital ledger that chronologically records computationally verified transactions or other data.
-            <br><br><strong>“Conditional Use”</strong> means the activities as specified in Schedule 1.
-            <br><br><strong>“Connected Decentralized Applications”</strong> shall have the meaning as specified in Clause 2.1(5).
-            <br><br><strong>“Control”</strong> means having direct or indirect power to direct or cause the direction of the management or policies of an entity, including the right to veto decisions, whether through the ownership of voting interests, by agreement or otherwise, and <strong>“Controlled”</strong> has a correlative meaning.
-            <br><br><strong>“Decentralized Application”</strong> means a digital application or program that runs on network of computers and utilizes the Smart Contracts to access Blockchain network and enforce each term of agreement set out in the Smart Contract.
-            <br><br><strong>“Digital Asset”</strong> or <strong>“DA”</strong> means cryptocurrency, digital token, Non-Fungible Token and other types of digital token and currency classified to be the digital or virtual assets under the Applicable Law.
-            <br><br><strong>“Gas Fee”</strong> means the fee charged to the user of Blockchain in order to engage in a transaction or other operation on Blockchain. 
-            <br><br><strong>“Infringement Claim Counter-Notice”</strong> shall have the meaning as specified in Clause 4.5 (3).
-            <br><br><strong>“Infringement Claim Notice”</strong> shall have the meaning as specified in Clause 4.5(2).
-            <br><br><strong>"Intellectual Property"</strong> means, including but not limited to, the inventions, discoveries, works of authorship, symbols, names, logos, and images used in commerce, domain names, software, algorithms, designs, databases, data, know-how, technology, and/or other property of similar nature.
-            <br><br><strong>"Intellectual Property Rights"</strong> means the rights, titles, and interests (under any jurisdiction, whether protectable or not, and whether registered or unregistered) in and to Intellectual Property, including without limitation the patents, copyright and similar authorship rights, personal rights (such as moral rights, performance rights), database rights, mask work rights, trade secret and similar confidentiality rights, design rights, trademarks, and any other intellectual property or proprietary rights, as well as all related applications of such rights and goodwill.
-            <br> <br><strong>“Losses”</strong> means any and all costs, expenses (including reasonable attorneys’ fees on a full indemnity basis as permitted by a competent court), claims, demands, losses, damages, diminution in value, liabilities, obligations, deficiencies, actions, lawsuits and other proceedings, judgments and awards, whether or not involving a third party claim, suffered or incurred by a person.
-            <br><br><strong>“KUB Arena Content”</strong> means all content, information and materials, (for example – without limitation – text, images, animations, databases, icons, buttons, interface, pictures, videos, graphics, computer graphics, including 2D and/or 3D computer graphics, sounds and music, etc.), and other digital materials created in order to become incorporated and embedded components of electronic applications and digital media of KUB Arena and all other elements of the Services, including the rights therein and any derivatives therein.
-            <br><br><strong>“KUB Arena Event” </strong>shall have the meaning as specified in Clause 6.1(1).
-            <br><br><strong>“Non-Fungible Token”</strong> or <strong>“NFT”</strong> means Non-Fungible Token which is the unique cryptographic token that exists on the Blockchain with unique identification codes that distinguishes and represents individuals’ identities, properties, rights and others.
-            <br><br><strong>“PINs”</strong> means the electronic personal identification numbers set out by the User in order to use the Services under this TOS.
-            <br><br><strong>“Prohibited Use”</strong>  means the activities as specified in Schedule 1.
-            <br><br><strong>“Services”</strong> means any and all aspects, features, applications, Decentralized Applications, Software, downloads, services offered by Bitkub in connection with KUB Arena including but not limited to the Website, KUB Arena Content, KUB Arena Event, User-Generated Content, User-Submitted Content, User-Virtual Activities Content, Virtual Goods, and Bitkub NEXT features as integrated in KUB Arena.
-            <br><br><strong>“Smart Contract”</strong> means an immutable protocol or set of computer programs that follows pre-defined rules to enforce or self-executed agreed-upon obligations automatically and without the involvement of third parties.
-            <br><br><strong>“Software”</strong> is the software provided to the User by Bitkub and/or its representative under the license for use of the Services, including but not limited to the software for accessing the Services and any communication software, whether facilitating text-based, chat-based, voice, audio or other communication within or outside of the Services, and any application program interfaces (the <strong>“API”</strong>) for use with the Services.
-            <br><br><strong>“Subsequently Added DA Wallet”</strong> means the digital wallet which may be added by Bitkub to be compatible with KUB Arena.
-            <br><br><strong>“Thai Illegal Computer Data”</strong> means illegal computer data pursuant to Section 14 of Computer-Related Crime Act B.E 2550 (2007) (as amended) of Thailand.
-            <br><br><strong>“User Account”</strong> means the account available to be opened by the User for participation in  KUB Arena.
-            <br><br><strong>“User-Generated Content”</strong> means the KUB Arena Content that is information and/or content that the User of the Services creates in KUB Arena.
-            <br><br><strong>“User-Submitted Content”</strong> means the KUB Arena Content that is information and/or content that the User of the Services submits, publishes or posts to KUB Arena and/or via the Services.
-            <br><br><strong>“User-Virtual Activities Content”</strong> means the KUB Arena Content appearing as any activity, quest, campaign, function and feature arranged by the User (other than Bitkub) in KUB Arena.
-            <br><br><strong>“Virtual Goods”</strong> means the KUB Arena Content appearing as digital in-game items, in-game utilities, and any other digital forms compatible to KUB Arena, including any User-Submitted Content, or User-Generated Content of such nature.
-            <br><br><strong>“Virtual Money”</strong> shall have the meaning as specified in Clause 3.1(5)(b).
-            <br><br><strong>“Website”</strong> means the website relating to KUB Arena created by Bitkub and/or announced to the User which contains terms and conditions or other contents relating to KUB Arena.
-        <h2>2.	USER, USER ACCOUNT, USAGE AND AVAILABLE SERVICE</h2>
-        <strong>General</strong> <br><br>
-        The User participates in KUB Arena at own discretion and appropriately understands the accuracy, completeness, and usefulness of any risks and information including acknowledgement of this TOS and other terms and conditions announced by Bitkub.
-        <br><br>
-        Bitkub makes no commitment, express or implied, to maintain or continue, or to permit open access to, any aspect of the Services. You acknowledge that your use of the Services is subject to the risk that you knowingly assume it and make your decisions to participate in the Services.
-        <br><br>
-        <strong>2.1	Use of User Account</strong><br>
-            <ul>
-                <p>
-                (1)	<strong>Registration:</strong> the User is required to register and create a KUB Arena account (the <strong> “User Account”</strong>) before use and access to KUB Arena.  
+            Bitkub Blockchain Technology Co., Ltd. (the “<strong>Company</strong>”, “<strong>we</strong>”, 
+            “<strong>us</strong>” or “<strong>our</strong>”) provides KUB Arena,  the Location-based Augmented 
+            Reality Mobile Game including any and all aspects, features, applications, decentralized applications, software, downloads, services offered by Bitkub in connection with KUB Arena  (the “<strong>KUB Arena</strong>” or “<strong>Services</strong>”) 
+            which is the side game of Bitkub Metaverse, one of the universes of the XRB Galaxy Verse on the Bitkub Chain. To do so, we need to collect, use, and disclose (collectively called the “<strong>Processing</strong>”) your information that can or could 
+            be used to identify you (the “<strong>Personal Data</strong>”) and we respect and recognize the importance of your right of privacy and protection of your Personal Data in order to ensure that your Personal Data is protected under the Personal Data 
+            Protection Act B.E. 2562, we have created this Privacy Policy to inform you the details and purposes for which your Personal Data is processed. <br>
+            <ol>
+                <li><strong>Person whom the Company collects, uses, and discloses the Personal Data</strong><br>
+                    <strong>User</strong> means a natural person who uses or will use the Services from us, contacts us for information about such services, or receives relevant advertisements regarding our Services.
+                </li>
+                <br>
+                <li><strong>Personal Data which the Company collects, uses, and discloses</strong><br>
+                    We collect, use, and disclose your Personal Data under the legal bases or exceptions of the Personal Data Protection Act B.E. 2562, including for the performance of contracts and for purposes of legitimate interest pursued by us, third parties, or other stakeholders.
                     <br><br>
-                (2)	<strong>Connect with Digital Asset wallets to create User Account:</strong> the User shall use Bitkub NEXT account to create the User Account and in order to enter into KUB Arena.  The User shall be subject to the terms and conditions of Bitkub NEXT and Bitkub is not responsible for any liability and/or duty for monitoring any activity relating to Bitkub NEXT. KUB Arena is compatible to Digital Asset that Bitkub, by its sole discretion, decides to support only, and the Digital Asset that we support may vary from time to time at our own discretion.
+                    When using the Services, we may disclose some of your Personal Data to third parties for service operation. In this regard, we take necessary measures to ensure that your Personal Data is disclosed, transmitted, and/or transferred only to the extent necessary and in accordance with the law.
                     <br><br>
-                (3)	<strong>Right in the User Account:</strong> you accept and agree that you are permitted to use the User Account to participate in KUB Arena only. Other than the Digital Assets in Bitkub NEXT account and Bitkub NEXT, Bitkub shall have all rights, title and interest to the User Account, to the extent permitted by the Applicable Law.
-                    <br><br>
-                (4)	<strong>Payments and Transactions</strong>
-                    <br><br>
-                Bitkub may collect the fee when the User conducts particular transaction as set out in KUB Arena, of which Bitkub will notify the User on or before such fee collection is implemented in KUB Arena.
-                    <br><br>
-                Payment within KUB Arena is a closed-system and only limited to transaction relating to (i) the KUB Arena Content; (ii) purchase of in-game currency; and/or (iii) any other functions as made available within KUB Arena. All payments shall be proceeded through the User’s Bitkub NEXT account. You must provide, make available and maintain connection of your  Bitkub NEXT account with your User Account, including to perform and comply with any other requirements, subject to the terms and conditions of Bitkub NEXT accordingly.
-                    <br><br>
-                If the User conducts transactions via Bitkub Chain or any other Blockchain associated with KUB Arena and such transaction causes Bitkub to pay any cost, Bitkub is entitled to charge  the Gas Fee from the User for such transactions. Bitkub shall not be responsible for any other chargeable fees, including but not limited to royalties, charged by the NFT seller or the NFT creator.
-                    <br><br>
-                (5)<strong>Connection with Decentralized Applications:</strong> 
-                some KUB Arena Content in KUB Arena may be connected to  the Decentralized Application for availability to use (the <strong>“Connected Decentralized Applications”</strong> ) and the User shall be subject to the terms and conditions of each Connected Decentralized Applications. Bitkub shall not be liable to any use occurred from the Connected Decentralized Applications.
-                </p>
-            </ul>
-        <strong>2.2 User Security Information</strong><br>
-            <ul><p>
-                The User shall be solely responsible for the safeguard and confidentiality of, including to use adequate security procedures for, the PINs, User ID, API keys, cryptographic key, seed phase and password of the User Account and Bitkub NEXT account including any Software used for KUB Arena (the ). The User shall be solely responsible for any improper and unauthorized use of the User Security Information made by any person.
-                <br><br>
-            The User shall be solely responsible for any Losses or compromise of the User Security Information due to  any improper and unauthorized access made by any person including the loss or theft of any Digital Asset held in Bitkub NEXT account. 
-                <br><br>
-            The User shall be solely responsible for keeping the User’s email address, contact information, and any other information as requested by Bitkub up to date.  Bitkub shall not be liable for any non-notified information that the User does not notify or update to Bitkub.
-            </p></ul>
-            <strong>2.3	User’s Representation and Warranties</strong>
-            <ul><p>
-                You represent and warrant that: 
-                <br><br>
-                (1) all information submitted by you are true, not misleading, accurate and complete;
-                <br><br>
-                (2) you have full legal right, power and authority to enter into and to perform your obligations under this TOS and the transactions contemplated by it;
-                <br><br>
-                (3)	you have not been included in any trade embargoes or economic sanctions list, or in violation of any anti-money laundering law; 
-                <br><br>
-                (4)	you have, or have obtained, all rights, licenses, consents, permissions, power and/or authority necessary to grant the rights for any information that you submit, post or display on or through the Services;
-                <br><br>
-                (5)	you have carefully and thoroughly read and understood this TOS; and
-                <br><br>
-                (6)	your access and use of the Services will be in accordance with the Applicable Law.
-            </p></ul>
-            <strong>2.4	User-Virtual Activities Content and Prohibited Uses, Prohibited Business, and Conditional Use, Privacy, Availability of the Services and KUB Arena Content </strong>
-                <ul>
-                    <p>
-                        (1)	Other than the terms and conditions under this TOS, the User shall be subject to other terms and conditions in relation to the User-Virtual Activities Content. 
-                        <br><br>
-                        (2)	<strong>User-Virtual Activities Content:</strong> Other than the terms and conditions under this TOS, once you participate in each User-Virtual Activities Content, you shall be automatically subject to additional terms and conditions (if any) set out by Bitkub and/or other Users who owns the User-Virtual Activities Content. In the event of a conflict amongst the agreements within KUB Arena, this TOS shall prevail unless as expressly specified otherwise.
-                        <br><br>
-                        The User acknowledges and agrees that Bitkub may monitor information and content contained in any User-Virtual Activities Content and relevant websites of User-Virtual Activities Content and Bitkub may take down, suspend and/or terminate information and content that violates the terms and conditions under this TOS.
-                        <br><br>
-                        (3)	<strong>Prohibited Use, Prohibited Business and Conditional Use </strong>
-                        <ul><p>
-                            (i)	The User agrees and undertakes that the User shall not engage in, act, perform or do any Prohibited Business and Prohibited Use as specified in Schedule 1 via the User’s use of Services, the User’s interactions with other Users via use of Services.
-                            <br><br>
-                            (ii)	The User may do the activities as listed in Conditional Use of Schedule 1 under the condition as specified therein.
-                            <br><br>
-                            (iii)	Bitkub reserves the right, at all times, to monitor, review, retain, take action and/or disclose any information as necessary to comply with any Applicable Law, orders, legal process or governmental request in relation to any Prohibited Business, Prohibited Use and/or Conditional Use.
-                        </p></ul>
-                        (4)	<strong>Availability of the Services and KUB Arena Content </strong>
-                        <ul><p>
-                            Bitkub may, from time to time and without giving any reason or prior notice, upgrade, modify, suspend or remove, whether in whole or in part, KUB Arena Content or the provision of any Services, and Bitkub shall not be liable if any of such upgrade, modification, suspension or removal prevents you from accessing and/or using the Services or any part of the Services.
-                        </p></ul>
-                    </p>
-                </ul>
-            <h2>3.INTELLECTUAL PROPERTY</h2>
-            <strong>3.1	Ownership of Intellectual Property</strong>
-            <ul>
-                <p>
-                    (1)	<strong>General</strong>
-                        <ul>
-                            <p>
-                                KUB Arena and other part in the Services are the Intellectual Property of Bitkub and/or its licensors (as the case may be).
-                                <br><br>
-                                You acknowledge and agree that all Intellectual Property Rights, in KUB Arena and other part in the Services, are owned by Bitkub and/or its licensors (as the case may be) and Bitkub and/or its licensors reserves all rights not explicitly granted under this TOS or elsewhere under any additional terms and conditions as set out by Bitkub.
-                            </p>
-                        </ul>
-                    (2)	<strong>Trademarks</strong>
-                    <ul><p>
-                        Bitkub, and its associated logos, names and marks are our trademarks and Intellectual Property.  No right or license with respect to any use of our trademarks are granted to you, unless granted pursuant to any additional terms and conditions set out by Bitkub.
-                        <br><br>
-                        Notwithstanding, you hereby agree that any mark, name, and/or logo you submit to KUB Arena and/or the Services shall be considered as part of the User-Submitted Content and shall be subject to the terms and conditions of User Content as stipulated in Clause 3.1 (4) herein. 
-                    </p></ul>
-                    (3)	<strong>Limited License</strong>
-                    <ul><p>
-                        (a)	Subject to your compliance with this TOS, Bitkub hereby grants to you a non-exclusive, limited, revocable, non-transferable license to download, install, use and access the Services, with operating systems set out by Bitkub on which the Services are designed to operate and to relevant operating system for your personal non-commercial purpose. 
-                        <br><br>
-                        (b)	You may not modify, copy (except for a single transient copy required to operate the Services on your operating systems), distribute, transmit, display, perform, reproduce, publish, create derivative works from or adapt, sell, rent, lease, sublicense, or otherwise transfer or make available  the Services, in all or in part.  Further, you may not use any automation tools, macros, bots, auto-typers and tools to circumvent any technical mechanisms or protections in place, or exploit any known faults or bugs in the Services.
-                        <br><br>
-                        (c)	No other rights in or to the Services are granted, unless any other rights are granted pursuant to any additional terms and conditions as prescribed by Bitkub. 
-                        <br><br>
-                        (d)	Bitkub reserves the right to stop offering any part of the Services at any time, either permanently or temporarily, at which point any license granted to you by this TOS and/or any additional terms and conditions, will be automatically and immediately terminated. 
-                        <br><br>
-                        For the avoidance of doubt, the termination of your User Account will result in the automatic and immediate termination of any license granted to you by this TOS, and any additional terms and conditions.
-                    </p></ul>
-                    (4)	<strong>User Content</strong>
-                    <ul><p>(a) <strong>User-Submitted Content</strong>
-                        <ul><p>
-                            By submitting User-Submitted Content, you represent and warrant that you have, or have obtained, all rights, licenses, consents, permissions, power and/or authority necessary to submit the User-Submitted Content, and you agree to (i) grant Bitkub and its licensors a perpetual, worldwide, non-exclusive, sublicensable, royalty-free license to use, copy, modify, display or to use or exploit in any other manner the User-Submitted Content,  including the right to make such content available to other Users, companies or organizations through the Services and/or through any other media without any obligation including any obligation to pay royalties or other compensation to any person or party; and (ii) grant other Users a non-exclusive license to access, use, reproduce, distribute, prepare derivative works of, display, or to use in any other manner the User-Submitted Content via the Services.
-                        </p></ul>
-                    </p></ul>
-                    <ul><p>(b) <strong>User-Generated Content</strong>
-                    <ul><p>
-                        Such Users who create User-Generated Content hereby agree to (i) grant Bitkub and its licensors a perpetual, worldwide, non-exclusive, sublicensable, royalty-free license to use, copy, modify, display or to use or exploit in any other manner the User-Generated Content, including the right to make such content available to other Users, companies or organizations through the Services and/or through any other media without any obligation including any obligation to pay royalties or other compensation to any person or party; and (ii) grant other Users a non-exclusive license to access, use, reproduce, distribute, prepare derivative works of, display, or to use in any other manner the User-Generated Content via the Services.
-                    </p></ul>
-                </p></ul>
-                <ul><p>(c) <strong>Removal of Content</strong>
-                    <ul><p>
-                        We have no obligation to actively monitor and/or moderate the User-Submitted Content or User-Generated Content, however, Bitkub shall reserve the right to remove and/or refuse to publish any User-Submitted Content or User-Generated Content if we have reasonably believed that such content has violated this TOS, the Applicable Law, infringes any Intellectual Property Rights of any person or entity, and/or could create liability to Bitkub, its licensors, and/or other Users.
-                    </p></ul>
-                </p></ul>
-                    (5)	<strong>Virtual Goods and Virtual Money</strong>
-                    <ul><p>
-                        (a)	<strong>Virtual Goods</strong>
-                        <ul><p>
-                            (i)	you agree and acknowledge that any of such Virtual Goods obtained by you via the Services are licensed to you by Bitkub under the terms and conditions of this TOS.  Bitkub makes no guarantee as to the nature of the functions and/or features of the Services that will be accessible through the use of Virtual Goods, or the availability or supply of the Virtual Goods.
-                            <br><br>
-                            (ii)	you acknowledge that you do not acquire any ownership rights in or to the Virtual Goods.
-                            <br><br>
-                            (iii)	the Virtual Goods may be exchanged with other Users via the Services through the tools and features made available via the Services or by its mechanism as determined by Bitkub.
-                            
-                            (iii)	the Virtual Goods may expire or may be removed from the Services. Once expired or removed, it will no longer be available for use via the Services and no refund and any compensation or reimbursement will be provided.
-                        </p></ul>
-                        (b)	<strong>Virtual Money</strong>
-                        <ul><p>
-                            (i)	some parts of KUB Arena Content may allow the User to purchase of virtual currency (the "Virtual Money") and use of that the Virtual Money to purchase the Virtual Goods or services expressly available for use in KUB Arena and you may access and purchase the Virtual Money for your personal and non-commercial use of the Services.
-                            <br><br>
-                            (ii)	you acknowledge that you do not acquire any ownership rights in or to the Virtual Money . The User can use the Virtual Money obtainable by the Users via the Services subject to the functions and features as made available by Bitkub. 
-                            <br><br>
-                            (iii)	you agree and acknowledge that any of such Virtual Money obtained by you via the Services are licensed to you under this TOS.  Bitkub makes no guarantee as to the nature of the function and/or features in the Services that will be accessible through use of the Virtual Money.
-                            <br><br>
-                            (ii)	the Virtual Money as obtained by the Users may only be transferred to other Users pursuant to the functions, features, system and/or mechanisms of the Services as set out by Bitkub.
-                            <br><br>
-                            (iii)	the Virtual Money may be redeemed only for Virtual Items and can never be sold, transferred, or exchanged for “real” money, “real” goods, or “real” services from us or anyone else. 
-                            <br><br>
-                            (iv)	the Virtual Money may be exchanged with other Users via the Services through the tools and features made available within KUB Arena or by its mechanism as determined by Bitkub.
-                            <br><br>
-                            (v)	the Virtual Money may expire or may be removed from the Services under. the terms and conditions, notification or information announced by Bitkub .  Once expired or removed, it will no longer be available for use via the Services and no refund and any compensation or reimbursement will be provided.
-                        </p></ul>
-                    </p></ul>
-                </p>
-            </ul>
-            <h2>4. User Feedback, Queries, Complaints </h2>
-            <strong>4.1	General</strong>
-            <ul><p>
-                <strong>Main Contact Channel:</strong> if you have any feedback, questions, complaints, or any communication to convey to us, please contact us via our live chat, Customer Support email at <a href="bitkubchain@bitkub.com">bitkubchain@bitkub.com</a>, or write to us at Bitkub Blockchain Technology Company Limited which is located at No. 2525, FYI Tower 2, 11th floor, Unit 2/1101-2/1107, Rama 4 Road, Klongtoei Sub-district, Klongtoei District, Bangkok 10110 Thailand.
-            </p></ul>
-            <strong> 4.2 Acknowledgement of Complaint:</strong>
-            upon receipt of a complaint submitted by the User via the Main Contact Channel, we shall contact the User within 7 (seven) Business Days to acknowledge the complaint and provide an estimated timeframe for handling such complaints.
-            <br><strong>4.3</strong>
-            When the User contacts us, please provide us with your name, email, phone number, wallet address, the explanation of the feedback, questions, and/or complaint, and the evidence (if any) on which the User has feedback, questions, or complaints.
-            <ul><p>
-                If the User submits the complaint, please acknowledge the timeline for handling the complaint as below:
-                <ul><p>
-                    (1)<strong> Timeframe for Handling the Complaint</strong>
-                    <ul><p>
-                        We will investigate the complaint within the day of receiving the complaint. The timeline for handling the complaints is within 14 (fourteen) Business Days. 
-                    </p></ul>
-                    (2)<strong>	Resolvable of the complaint and Judgment</strong>
-                    <ul><p>
-                        We will notify you of the result of the complaint within 3 (three) to 5 (five) Business Days from the date that the complaint is resolved. If we find that the complaint is valid and we have to take a measure to prevent damages, we will proceed with the relevant provision under this TOS such as suspension and termination of the User Account, pause or removal of content, or take down notice. 
-                    </p></ul>
-                    (3)<strong>	Unresolvable Complaint</strong>
-                    <ul><p>
-                        For unresolvable complaint, Bitkub may spend the time to handling such unresolvable complaint more than time as specified in Clause 4.3 (1) and shall notify the User that the complaint is under the complaint handling process of which such notification shall be repeatedly delivered in every 7 (seven) Business Days until Bitkub can notify the result of complaint as specified in Clause 4.3 (2).
-                    </p></ul>
-                </p></ul>
-            </p></ul>
-            <strong>4.4	Take Down Notice due to Thai Illegal Computer Data</strong>
-            <ul><p>
-                Please find the procedure for take down of Thai Illegal Computer Data <a href="https://www.bitkubblockchain.com/th/legal-privacy?tab=whistleblowing.">https://www.bitkubblockchain.com/th/legal-privacy?tab=whistleblowing.</a> The review and examination of take down shall be considered by Bitkub’s Team (human review).
-            </p></ul>
-            <strong>4.5 Copyright Infringement Claims </strong>
-            <ul><p>
-                (1) <strong>Disclaimer: </strong>
-                <ul><p>
-                    (a) Before proceeding, please consider whether or not the use of copyright could be considered fair use under the Applicable Law. If you knowingly materially misrepresent that a material is infringing, you may be liable to damages under the Applicable Law, and your User Account may be suspended or terminated pursuant to Clause 4.6. 
-                    <br><br>
-                    (b) For avoidance of doubt, we, by our sole discretion, reserve the right to take down only the Alleged Infringing Material that explicitly appears via use of the Services.
-                </p></ul>
-                (2) <strong>Infringement Claim Notice</strong>
-                <ul><p><strong>Delivery of Infringement Claim Notice</strong> <br><br>
-                    If you are a copyright owner or an agent of the copyright owner and believe that any material on the Services infringes upon your copyright-protected work 
-                    (the <strong>“Alleged Infringing Copyright Material”</strong>), you may contact us via the Main Contact Channel by delivering to us a takedown notice of the Alleged Infringing Copyright Material (the<strong>“Infringement Claim Notice”</strong>) and providing us with the following information:
-                <ul>
-                    <li>Contact information, including your legal name, address, telephone number and email address;</li>
+                    We collect, use, and disclose certain Personal Data to provide Services to you under the legal basis for the performance of the contract as follows:
                     <br>
-                    <li>A description of the Alleged Infringing Copyright Material and where it is located;</li>
+                    <ol><li>
+                        2.1. For register, sign on, and log in for an account, we will collect and use your Bitkub NEXT Wallet Address with 
+                        an Open Authorization (OAuth) technology.
                     <br>
-                    <li>A statement by you that you have a good faith belief that the use of the Alleged Infringing Copyright Material is unauthorized and that you are the copyright owner of the Alleged Infringing Copyright Material or authorized to act on the copyright owner’s behalf;</li>
+                        2.2. We will collect and use your device location information as you use the Services, including how you move around and events that occur during in application activity or gameplay. We identify your locations using GPS from your mobile phone.
                     <br>
-                    <li>A statement by you that the above information in your Infringement Claim Notice is true and accurate; and</li>
+                        2.3. We collect and use your in-app actions and achievements such as your name in game, party name, items, and rewards to provide the Services to you and to personalize your gameplay and user experience and we will also generate an internal Unique Identification (UID) when you use certain Services to associate you with an account.
                     <br>
-                    <li>An electronic or physical signature of you or the person authorized to act on behalf of the copyright owner.</li>
-                </ul><br>
-                <strong>Action upon Receipt of Infringement Claim Counter-Notice</strong><br><br>
-                Upon receipt of the Infringement Claim Notice, we shall:
-                <ul>
-                    <br>
-                    <li>Send a copy of the Infringement Claim Notice to the User who posted the Alleged Infringing Copyright Material to allow such User to object by providing a counter-notice as specified below; and</li>
-                    <br>
-                    <li>Suspend access to the Alleged Infringing Copyright Material within reasonable time</li>
-                </ul>
-                </p></ul>
-                (3)	<strong>Infringement Claim Counter-Notice: </strong>
-                <ul><p>
-                    <strong>Delivery of Infringement Claim Counter-Notice</strong><br>
-                    <br>If you obtain the copy of the Infringement Claim Notice, and you believe that your Alleged Infringing Copyright Material is not infringing or you have the authorization from the copyright owner, 
-                    the copyright owner’s agent, or pursuant to the Applicable Law to use the material, you may send a counter-notice to us (the <strong>“Infringement Claim Counter-Notice”</strong>) via the Main Contact Channel and providing us with the following information:
-                <ul>
-                    <li>Contact information, including your legal name, address, telephone number and email address;</li>
-                    <br>
-                    <li>A description of the Alleged Infringing Copyright Material which was suspended;</li>
-                    <br>
-                    <li>A statement that you are the copyright owner or authorized to act on the copyright owner’s behalf or evidence of;</li>
-                    <br>
-                    <li>A statement by you that the above information in your Infringement Claim Counter-Notice is true and accurate; and</li>
-                    <br>
-                    <li>An electronic or physical signature of you or the person authorized to act on behalf of the copyright owner.</li>
-                </ul><br>
-                <strong>Action upon Receipt of Infringement Claim Counter-Notice</strong><br><br>
-                    Upon receipt of the Infringement Claim Counter-Notice, we shall:
-                    <ul>
+                        2.4. ur Services include features which allow you and other users to view and interact with the same virtual objects at the same time in a shared physical space. In order to provide this feature, we need to collect real-time data from your device camera and sensors during your experiences. However, we only use the data from your device’s camera for in game using and we do not retain such data.  
+                    </li></ol>
+                    We also collect use, and disclose certain Personal Data rely on the legal basis of the legitimate interest as follows:
+                    <ol><li>
+                        2.5. We use your in-app actions to carry out anti-fraud and anti-cheating measures against behaviors prohibited under our Terms of Services, to prevent abuse, and to provide a fair gaming experience to all users.
                         <br>
-                        <li>Send a copy of the Infringement Claim Counter-Notice to the User who made the Infringement Claim Notice and inform them that the Alleged Infringing Copyright Material will be unsuspended after a period of 30 (thirty) days from the date of our receipt of the Infringement Claim Counter-Notice.</li>
+                        2.6. We may disclose your user ID to our business partner to maintain the Services and/or resolve the technical issue which may occur during the operation.  
+                    </li></ol>
+                </li><br>
+                <li><strong>Source of Personal Data</strong>
+                    <br>
+                    Normally, we collect your Personal Data directly from you. However, in some case we may need to collect your personal information from other sources if it is necessary for compliance with a performance of the contract, legal obligation, or other necessary rights. In this regard, we may collect your Personal Data as follows:
+                    <ol><li>
+                        3.1. We collect your Personal Data from Bitkub NEXT when you allow the Open Authorization (OAuth) with Bitkub NEXT account to register the user account of KUB Arena.
                         <br>
-                        <li>Unsuspend the Alleged Infringing Copyright Material within 15 (fifteen) days after the 30 (thirty) day period has ended, unless the copyright owner files an action seeking a court order.</li>
-                    </ul>
-                </p></ul>
-                (4) <strong>Repeat Infringer Policy:</strong> if we receive 2 (two) or more Infringement Claim Notice from a copyright owner or their authorized representative and we have reasonable belief that such User has infringed on the other User's copyright, the User Account associated with such infringement will be terminated pursuant to Clause 4.5 (3).
-            </p></ul>
-            4.6	<strong>Suspension and Termination by Bitkub</strong>
-            <ul><p>
-                (1)	<strong>Causes for Suspension</strong>
-                <ul><p>
-                    Bitkub, by our sole discretion and without obtaining prior written consent from you, may suspend your access to all or part of the Services or use of the User Account by delivering a suspension notification at the time or before the suspension is made (the <strong>“Suspension Notice”</strong>) if any of the following occurs:
-                <ul>
-                    <p>
-                        (a) we are required by a valid subpoena, court order, or binding order of a government authority to do so; 
+                        3.2. We may receive your Personal Data from our operation process when you use our Services. 
+                    </li></ol>
+                </li><br>
+                <li><strong>Sending or transferring your Personal Data to overseas</strong><br>
+                    <ol><li>
+                        4.1. We may transmit or transfer your Personal Data to overseas only with your explicit consent or where it is necessary for us to comply with the legal obligation, or for the performance of the contract which you are a party, or the performance of a contract between the Company and another person or juristic person for the benefit of you.
+                        <br>
+                        4.2. We store your Personal Data on servers or cloud computing provided by third party located abroad. In this regard, we undertake to ensure that the service provider has adequate Personal Data security safeguards.
+                        <br>
+                        4.3. We will comply with the Persona Data protection laws and take necessary actions to ensure that your Personal Data which is sent or transferred to overseas is adequately protected.
+                    </li></ol>
+                </li><br>
+                <li><strong>Personal Data retention period</strong>
+                    <br>
+                    We will store your Personal Data only for the period necessary to achieve with the purposes notified above, to comply with the contract and founding laws, or to exercise legal claims and for the legitimate interests of us or other stakeholders as set out in our Personal Data retention policy. We will delete or destroy the Personal Data or make it anonymous when it is no longer necessary in relation to the purpose for which it was collected or processed or when the period specified in the retention policy ends.
+                </li><br>
+                <li><strong>Security measures</strong><br>
+                    We value the security of your Personal Data thus we have put in place appropriate security, technical and administrative measures to ensure that your Personal Data is not accessed, modified, changed, deleted, or destroyed by any unauthorized person. A review of such measures is organized when necessary or when the technology changes to ensure that information security is always effective.
+                </li>
+                <br><li><strong>Minors</strong><br>
+                    Unless stated otherwise in our Term of Services, children at the age under 10 (ten) are not allowed to use the Services, and we do not knowingly collect Personal Data from them. The holder of parental responsibility over the children or legal representative of the children ("<strong>Parents</strong>") 
+                    should be aware of your children in sending their Personal Data to us. In the event that children send their Personal Data to us, the Parents hereby` consent to our processing their Personal Data and agree to our Term of Services on behalf of your children. If the Parents do not consent us to process your children’s Personal Data, please contact us according to Clause 11. After being contacted, we will terminate the Services and 
+                    delete and/or destruct children’s Personal Data accordingly.
+                </li><br>
+                <li><strong>Exercising your rights as a data subject</strong> <br>
+                    You can exercise the right which you have under the legal basis set out in the Personal Data Protection Act B.E. 2562, relevant law, notice, and regulation including:
+                    <ol><li>
+                        <br>
+                        8.1. <strong>Right to withdraw consent:</strong> You have the right to withdraw the consent to data processing which you have given to the Company at any time as long as your Personal Data is stored with us unless there is a legal limitation or there is a contract between you and the Company and/or its affiliates that benefit you.
                         <br><br>
-                        (b) we reasonably believe that the use of your User Account in connection with any of the Prohibited Use, Prohibited Business or Conditional Use; 
+                        8.2. <strong>Right to access your Personal Data and request to disclose the source of your Personal Data:</strong> You have the right to access your Personal Data which we collected, used, and disclosed and have the right to request us to disclose the source of your information.
                         <br><br>
-                        (c) we reasonably believe that you implement any Prohibited Use, Prohibited Business or Conditional Use according to our review;
+                        8.3. <strong>Right to ratification:</strong> You have the right to request us to rectify your Personal Data if it is inaccurate or incomplete.
                         <br><br>
-                        (d) the use of your User Account is subject to any legal proceeding that we have to suspend or terminate your User Account by legal effect; 
+                        8.4. <strong>Right to erasure your Personal Data or anonymize information:</strong> You have the right to request us to erase, destruct or anonymize your Personal Data if your Personal Data is no longer necessary in relation to the purposes in which they were collected.
                         <br><br>
-                        (e) we assess the risk of legal or regulatory non-compliance associated with any activity of your User Account, Bitkub NEXT account and/or any Subsequently Added DA Wallet account and the result of such assessment indicates high risk; 
+                        8.5. <strong>Right to restriction of processing your Personal Data:</strong> You have the right to request us to restrict the processing of your Personal Data temporarily when we are in the process of investigating your request to information ratification and/or  objection or any other event where your Personal Data is no longer necessary in use and we must erase or destruct your Personal Data in accordance with the relevant law but you oppose such erasure and request the restriction of the use instead.
                         <br><br>
-                        (f) we reasonably believe that you take any action that we deem as interfering or circumventing our control in any case or any circumstance, including, but not limited to, opening multiple User Accounts, or abusing the procedures or systems, or promotions which we may offer from time to time; 
+                        8.6. <strong>The right to information portability in the form of automated mean:</strong> You have the right to request to transmit your Personal Data to another data controller if the processing is carried out by automated means unless technical conditions do not allow. However, we do not yet have a system to support the exercise of such rights.
                         <br><br>
-                        (g) we reasonably believe that you cause any breach any of our policies or instructions that we notify you from time to time; 
+                        8.7. <strong>The right to object the processing:</strong> You have the right to object the data processing in some event.
                         <br><br>
-                        (h) we reasonably believe that any part of your User Account, under the Applicable Law, conducts, contains or cause any illegal action, or uses material or otherwise that would materially and/or adversely affect or create significant legal risk to the Services and/or Bitkub; 
-                        <br><br>
-                        (i) we, by our sole discretion, reasonably believe that any part of your User Account causes any Losses to the Services; or
-                        <br><br>
-                        (j) we reasonably believe or find that you have breached or in default of any provisions of this TOS.
-                    </p>
-                </ul>
-                (2) <strong>Procedure relating to Suspension:</strong> if we decide to implement Suspension Notification due to any circumstance under Clause 4.6 (1):
-                <ul><p>
-                    (a) you may object our decision by the method and via the Main Contact Channel within 7 (seven) days from the date of receipt of the Suspension Notice by sending your objection with reasons and fact to us for review according to the Main Contact Channel, we shall take reasonable steps to investigate your objection within reasonable time and inform you about the result of our investigation.
-                    <br><br>
-                    (b) after reviewing your objection under Clause 4.6 (2)(a), if we decide to cancel such suspension, we shall return the access to your User Account with all information content and material ‘as is’ before the suspension within reasonable time.
-                </p></ul>
-                (3)	<strong>Procedure relating to Termination of User Account:</strong>
-                <ul><p>
-                    After the suspension, if you fail to object the suspension or we have the decision not to unsuspend your access or use of your User Account pursuant to the process as specified in Clause 4.6 (2), we may decide to implement any termination of your User Account and access to the Services, and we shall notify you by written notice at least 30 (thirty) days in advance with the reason for implementing such termination, unless any of the following circumstances is occurred, of which we shall be entitled to terminate your User Account immediately: 
-                    <br><br>
-                    (a) 	such termination is implemented by complying with the Applicable Law; legal order which we are unable to notify you at least 30 (thirty) days in advance; or 
-                    <br><br>
-                    (b)	your misconduct is a second violation of the same provision under this TOS; or 
-                    <br><br>
-                    (c)	you act, do or implement any of the following severe causes (the <strong>“Severe Causes”</strong> ) as below:
-                    <ul><p>
-                        (i)	use any software or program that damages, interferes with or disrupts the Services or another's computer or property, such as denial of service attacks, spamming, hacking, or uploading computer viruses, worms, Trojan horses, cancelbots, spyware, corrupted files and time bombs;
-                        <br><br>
-                        (ii)	use or distribute unauthorized software programs or tools (such as "auto", "macro", hack or cheat software), or use exploits, bugs or problems in KUB Arena to gain unfair advantage;
-                        <br><br>
-                        (iii)	using any hacks, cracks, bots, or third-party software that may modify, temporarily or permanently, the code or the user experience of the Services, whether locally on your device or on servers, or using any application, software or technology that is not expressly authorized by us that enables cheating, power-leveling, or accomplishing game tasks that cannot be accomplished without the use of such an application, software or technology;
-                        <br><br>
-                        (iv)	reverse engineering, deriving source code, modifying, decompiling, disassembling the Services or any portion thereof, or otherwise determining or attempting to determine any source code, algorithms, methods or techniques used or embodied in the Services;
-                        <br><br>
-                        (v)	using any robot, spider, site search/retrieval application or other manual or automatic device or process to retrieve, index, data mine, or in any way reproduce or circumvent the navigational structure or presentation of the Services, or any content contained therein;
-                        <br><br>
-                        (vi)	taking any action that imposes an unreasonable or disproportionately large load on our network or infrastructure;
-                        <br><br>
-                        (vii)	using or attempting to use any viruses, malware, or any other computer code, files, programs, software, routine, or device designed to interrupt, destroy, or limit the functionality or proper working of the Services or networks, including by engaging in, instigating, or facilitating any denial of service attack or similar conduct, or attempt to probe, scan, test the vulnerability of, or breach the security of any system or network;
-                        <br><br>
-                        (viii)	using macros, auto-looting or robot play, or any other behavior that allows you (or any character you are controlling) to automatically function or effect any action in a game with or without your presence; 
-                        <br><br>
-                        (ix)	intercepting, emulating, or redirecting the communication protocols used by Bitkub or its designees in any way, including without limitation through protocol emulation, tunneling, packet sniffing, modifying or adding components to the Software, use of a data mining utility program to intercept, collect, read or mine information generated by the Services, or in any way utilize a technique now known or hereafter developed that would allow for or otherwise make available unauthorized access or use of the Services; 
-                        <br><br>
-                        (x)	transferring of User Account between the Users, including but not limited to, offer, purchase, sale, gifting, or trading any User Account; or
-                        <br><br>
-                        (xi)	using any techniques to alter or falsify a device’s location (for example through GPS spoofing).
-                    </p></ul>
-                </p></ul>
-                </p></ul>
-            </p></ul>
-            <h2>5. Notices to the User </h2>
-            <strong>5.1	To the User: </strong>All communications, notices, correspondence and documents to be delivered to you shall be sent or communicate pursuant to the information given by you i.e. detail of personal delivery, address, email and phone number, and any communication and notice sent to you shall be deemed to be given by Bitkub and received by you:
-            <ul><p>
-                (1) if delivered in person or by hand, at the time of delivery;
-                <br><br>
-                (2)	if sent by registered mail, on the 3rd (third) day following the date of posting; 
-                <br><br>
-                (3)	if sent by e-mail/electronic transmission, when transmitted to you; or
-                <br><br>
-                (4)	if communicate verbally or by phone to you.
-                <br><br>
-                if Bitkub delivers written communication, notices, correspondence and documents to you via the method in Clause 5.1 (1) - (3) pursuant to the information given by you to Bitkub, it shall be deemed as delivered and received by you no matter you have relocated or changed email address or address or do any other act that impact the accuracy of delivering notice without prior written notice to inform Bitkub. 
-                <br><br>
-                In the event that you fail to give any response to our communication, notices, correspondence and documents, either in verbal or written, within a period of time as prescribed by Bitkub, you agree that we shall be entitled to implement the action under this TOS and/or as informed to you in written documents or verbal communication and we shall not be liable for any loss, damage, cost or expense suffered by you as a result of that implementation unless it arises from gross negligence or willful misconduct made by Bitkub.
-            </p></ul>
-            <strong>5.2	To Bitkub:</strong> All communications, notices, correspondence and other documents to be delivered to Bitkub must be in legible writing and in Thai or English and sent to the address and channel as specified in the Main Contact Channel in Clause 5.1 or any other channel that Bitkub shall inform from time to time. 
-            <br><br>
-            The notice sent pursuant to this Clause 5.2 to Bitkub shall be deemed to be given by the User and received by the Bitkub:
-            <br><br>
-            (a) if delivered in person or by hand, at the time of delivery;
-            <br><br>
-            (b) if sent by registered mail, on the 3rd (third) day following the date of posting; or
-            <br><br>
-            (c) if sent by e-mail transmission, when transmitted to Bitkub, provided that the User receives a transmission control report indicating that the notice has been sent in its entirety without error.
-            <br><br>
-            but if the delivery or receipt is on a day which is not a Business Days or is after 5.00 p.m. (the Bitkub’s time), it shall be deemed as received at 9.00 a.m. on the following Business Days of Bitkub.
-            <h2>6. Participation in KUB Arena Events </h2>
-            <strong>6.1 Registration and Tickets Event</strong>
-            <ul><p>
-                (1)	The term <strong>“KUB Arena Event"</strong> means a part of Services in the form of any in-person event, gathering, activity or the like which is directly organized, hosted, or managed by Bitkub, and any promotion in connection with KUB Arena.  The method and terms and conditions of participation in the KUB Arena Event shall be set out by us and shall be announced via our official channel and shall be made via registration (the <strong>“Registration Event”</strong> ) and purchasing ticket (the <strong>“Ticket Purchasing Event”</strong> ). 
-                <br><br>
-                (2)	you represent and warrant that the information you provide is true and accurate. If you register the Registration Event or purchasing tickets for Ticket Purchasing Event  on behalf of others, you represent and warrant that you have all necessary rights and consents to register and provide this information for others.
-                <br><br>
-                (3)	To the extent permitted under the Applicable Law or otherwise specified under this TOS, you cannot refund or exchange any ticket of KUB Arena Event (including any add-on purchases). 
-                <br><br>
-                (4)	Unless otherwise prohibited under the Applicable Law, by attending the event you acknowledge that Bitkub will use your data collected pursuant to the Privacy Policy for providing event features (both in person and online), including contacting you and giving you updates about the event, mailing you required materials (e.g., a QR or wristband), providing emergency or severe weather notifications, or public event leaderboards and gameplay competitions.
-            </p></ul>
-            <strong>6.2	Non- Registration Events</strong>
-            <ul><p>
-                Other than the Registration Event and the Ticket Purchasing Event, you may enter into the KUB Arena Event that does not require the registration process or purchasing ticket process (the <strong>“Non- Registration and Tickets Event”</strong> ) and you accept and agree that Bitkub has no control over your health and safety for your voluntary participation in such Event. You shall be solely responsible to your health and safety including assumption of all risk as specified in Clause 6.4.
-            </p></ul>
-            <strong>6.3 Relevant Event Policies </strong>
-            <ul><p>
-                (1)	on the sites, if Bitkub announces the event policies any terms and conditions, rules and policies as set out by Bitkub or any other authorized party as designated by Bitkub in the KUB Arena Event, including all health and safety policies and procedures and all reasonable instructions of the venue staff and Bitkub’s representatives at the KUB Arena Event (the <strong>“Relevant Event Policies”</strong> ), they shall be deemed as the conditions for participation.  If you elect not to consent to such security precautions and searches, you may be denied entry, or removed from, such KUB Arena Event without refund or other compensation.
-                <br><br>
-                (2)	you accept and agree that if there are some events that shall be arranged on sites without the Relevant Event Policies, for example, the mission arranged on the public place without any control of Bitkub and you accept to participate in such mission, you agree that you shall use your utmost caution to avoid danger or damages from the surrounding environment and Bitkub does not have any control of your participation or possible control of the safety measurement in the public place and Bitkub shall not be liable to any Losses from your participation directly or indirectly. Any act that you have done in participation is voluntary.
-                <br><br>
-                (4)	Bitkub and its authorized third parties reserve the right to refuse admission to, or to remove from the KUB Arena Event without refund or compensation of any kind, any person that (a) does not comply with any provision under this TOS, (b) engages in disorderly conduct or willful misconduct,(c) engages in harassing, threatening, abusive or otherwise inappropriate behavior towards Bitkub’s employees, event staff or other event attendees, and/or (d) Bitkub or its authorized party designated by Bitkub believe will cause a negative effect on KUB Arena Event, participants, spectators, and/or personnel.
-                <br><br>
-                (5)	Any minor attending the KUB Arena Event must be accompanied by a parent.
-            </p></ul>
-            <strong>6.4 Assumption of Risks</strong>
-            <ul><p>
-                For participating in the Registration Event, Ticket Purchasing Event and/or Non- Registration and Tickets Event,  you agree that:
-                <br><br>
-                (1)	To the extent permitted under the Applicable Law, you willingly, knowingly and voluntarily assume any and all risks occurring before, during or after participation in any type of KUB Arena Event, including injury by any cause and Losses, or theft of property. 
-                <br><br>
-                (2)	You acknowledge that any type of KUB Arena Event, and certain activities at any type of KUB Arena Event, have inherent and unforeseen risks, including but not limited to (a) contact or collision with persons or objects; (b) obstacles (e.g., natural and man-made water, road and surface hazards); (c) equipment related hazards (e.g., broken, defective or inadequate equipment, unexpected equipment failure), (d) weather related hazards; (e) inadequate first aid and/or emergency measures; (f) judgment and/or behavior related problems (e.g., erratic or inappropriate participant, co-participant, or spectator behavior or errors in judgment by personnel at the Event); and (g) natural hazards (e.g., uneven or difficult terrain, wildlife and insects, contact with plants). 
-                <br><br>
-                (3)	<strong>Precaution</strong>
-                <ul><p>
-                    (i)	<strong>Registration Event and Ticket Purchasing:</strong> You agree to take reasonable precautions before attending or participating in any type of KUB Arena Event and its activities, for example consulting with a personal physician and ensuring you are in good physical health, wearing appropriate attire, and bringing necessary or recommended supplies. You further understand and acknowledge that it is your responsibility to inspect the any type of KUB Arena Event grounds, facilities, equipment and areas to be used, and that by participating in any type of KUB Arena Event, you acknowledge the grounds, facilities, equipment, and areas to be used are safe, adequate, and acceptable for participation. If you believe or become aware of any unsafe conditions or unreasonable risks, you agree to immediately notify appropriate personnel and cease participation in the KUB Arena Event.
-                    <br><br>
-                    (ii) <strong>Non- Registration Event:</strong> To the extent permitted under the Applicable Law, you hereby waive and release Bitkub and any other party involved in creating or delivering the KUB Arena Event from any and all Losses which may arise out of, result from, or relate in any way to your attendance or participation in the KUB Arena Event, including for negligence, inherent and unforeseen risks, injury or damages to persons or property and the actions of third parties or participants and spectators of KUB Arena Event.
-                </p></ul>
-            </p></ul>
-            <strong>6.5	Event Features and Cancellation</strong>
-            <ul><p>
-                To the extent permitted under the Applicable Law, all schedules and any live or in-game experiences, activities, goods, services, items, rewards and/or content advertised in connection with any type of KUB Arena Event are not guaranteed and are subject to change and/or cancellation at any time prior to or during operating time of any type of KUB Arena Event. 
-                <br><br>
-                The date of any type of KUB Arena Event, time and/or location are subject to change at any time, and Bitkub will make a commercially reasonable effort to notify you in advance of any material changes. If the KUB Arena Event is canceled, suspended, or rescheduled by Bitkub and you are not able to attend, you will not be entitled to any compensation other than a refund of the ticket price at its face value with no further liability or compensation from Bitkub or any other party. Any travel or accommodation costs incurred are entirely your responsibility.  On the other hand, if you fail to attend the KUB Arena Event without Bitkub’s fault, you will not be entitled to refund.
-            </p></ul>
-            <h2>7. Liabilities and Indemnifications</h2>
-            7.1	Bitkub, its Affiliates, and respective officers, directors, agents, joint ventures, employees and representatives shall not be liable to any and all claims, demands and Losses arising out of or in connection with the dispute between the Users. 
-            <br><br>
-            7.2	Bitkub shall have the right, in addition to other rights hereunder, to demand the User be responsible for any Losses and expense suffered arising out of or in connection with this TOS, actions or omissions by the User or its agent as well as any claim, or litigation by other persons requiring us to be responsible hereunder for actions or omissions which have not been attributed to the fault of Bitkub.
-            <br><br>
-            7.3	Notwithstanding the foregoing, Bitkub shall have no liability to the User for any indemnification, unless a written notice is given to Bitkub by the User within 1 (one) year from the date with which the User is made aware of, or shall be made reasonably aware of, the breach, violation, infringement and/or default of this TOS by Bitkub.  Bitkub shall not be responsible and liable to any of the circumstances as follows:
-            <ul>
-                <p>
-                    (1) Bitkub shall not assume or be responsible in and liable to all Losses occurred to the User Account and/or to the User’s Security Information unless it is arisen from gross negligence or willful misconduct made by Bitkub. 
-                    <br><br>
-                    (2) Bitkub shall not be liable to any fraudulent activities or willful misconduct made by the User occurred by use of the Services. 
-                    <br><br>
-                    (3) To the maximum extent permitted by the Applicable Law, the aggregate liability of Bitkub for any Losses under this TOS, whether in contract, tort or under any theory of liability, claim or action shall not exceed THB 50,000 (fifty thousand Baht).
-                    <br><br>
-                    (4) Bitkub shall not assume or be responsible to Losses occurred due to any illegal and unauthorized use including but not limited to the Prohibited Uses, the Prohibited Business and the Conditional Use.
-                    <br><br>
-                    (5) Bitkub shall not be liable to any Losses or interruptions caused by any computer viruses, spyware, scareware, Trojan horses, worms or other malware that may affect the User’s computers or other equipment, or any phishing, spoofing or other attacks.
-                    <br><br>
-                    (6)	Bitkub shall not be liable to any Losses relating to the Digital Assets in Bitkub NEXT Account.
-                    <br><br>
-                    (7)	Bitkub shall not be responsible, in all circumstances, for ensuring that completion and validity of transaction made between the Users in connection with the Services.
-                    <br><br>
-                    (8)	Bitkub shall not assume responsibility and shall not be liable to any functionality, security, services or other actions made by any persons in connection with the Services which shall perform the significant part outside KUB Arena. 
-                    <br><br>
-                    (9)	Bitkub shall not be liable to the User if the User is not or shall not be qualified to open and/or use the User Account.
-                    <br><br>
-                    (10) Bitkub shall not be liable to any information and data of the User-Submitted Content, the User-Generated Content and the User-Virtual Activities Content published by the User.
-                    <br><br>
-                    (11) Bitkub does not warrant that the systems, interactions, functions, features and otherwise in relation to the KUB Arena Content shall be available to use at all time and Bitkub  shall not be liable to any delay or failure to interact or use of the systems, interactions, functions, features and otherwise in relation to the KUB Arena Content in connection with the Services.
-                    <br><br>
-                    (12) The User shall be responsible for all transactions or communications made between the Users in connection with the Services and agrees that Bitkub shall not be liable for any Losses arising from such transactions or communications.
-                </p>
-            </ul>
-            <h2>8. Privacy Notice</h2>
-            <ul><p>
-                Please refer to our Privacy Notice for information on how we collect, use, or disclose your information. You acknowledge and agree that your use of the Services is subject to, and that we can collect, use, or disclose your information in accordance with our Privacy Notice. 
-            </p></ul>
-            <h2>9. Entire Agreement</h2>
-            <ul><p>
-                This TOS, Schedules, policies, Relevant Event Policies, documents  and any other terms and condition relevant to your use of Service, such as the user manual, or any document which is the integral part of this TOS, constitutes the entire understanding and agreement between the User and Bitkub as to use of the Services, and supersedes any and all prior or contemporaneous oral or written communications with respect to the subject matter hereof, all of which are merged herein, including but not limited to any prior versions hereof, and every nature between the User and Bitkub.  
-            </p></ul>
-            <h2>10.	Amendments</h2>
-            <ul><p>
-                Bitkub reserves the right, at its sole discretion, to change, modify, add to, supplement or delete any of the terms and conditions of this TOS at any time. Bitkub will notify you of such changes in one of the following ways at its sole discretion: through a patch, email, postal mail, website posting, pop-up screen or in-game notice. If you do not agree to any of such change or modification, you may terminate this TOS. Notwithstanding, if you continue using the Services following any revision to this TOS, it will be deemed that you fully accept any and all such changes. 
-            </p></ul>
-            <h2>11.	Assignment</h2>
-            11.1	You shall not assign the rights and/or obligations under this TOS and those in connection with the Services and the use of Services, in any events and by any means, except the written consent of Bitkub is obtained.
-            <br><br>
-            11.2	We reserve the right to transfer our rights and/or obligations to any persons, and the User agrees not to make any claims against Bitkub.
-            <br><br>
-            11.3	In the event that Bitkub is acquired by or merged with a third party, or the sale of Bitkub's shares, business or assets to third parties, or any event resulting in a change in control or controlling power of Bitkub, Bitkub reserves the right to transfer or deliver the information collected from the User or any person related to the  Services and the User to any third party involved in such transactions in order to complete the transactions and/or to ensure the continuous operation of Services. 
-            <br><br>
-            11.4	Subject to the foregoing, this TOS will bind and insure to the benefit of the parties as defined by this TOS, their successors and permitted assignments 
-            <br><br>
-            <h2>12.	Severability</h2>
-            <ul><p>
-                In the event that any clause, text or word, whether part or clause, under this TOS, is void, invalid, or unenforceable under any law, notification, rule, order, or judgment of any court, regulatory bodies or government agencies (as the case may be), the Parties agree that such voidness, invalidity, or unenforceability of that specific clause, text or word does not affect the validity or enforceability of the other clauses, texts, or words under this TOS.
-            </p></ul>
-            <h2>13. Survival</h2>
-            <ul><p>
-                The Parties agree that any clauses contained under this TOS relating to the following matters shall continue being effective even if this TOS is terminated:
-                <ul><p>
-                    (1) All of Bitkub's rights to make any claim, including but not limited to the right to claims relating to fees, service charges, expenses, damages, compensation, indemnification, money or assets, and the exercise of any rights of the Bitkub specified in this TOS; and
-                    <br><br>
-                    (2) Clauses 2, 3, 4, 5, 6, 7, 15, 17 and 18.    
-                </p></ul>
-            </p></ul>
-            <h2>14.Termination</h2>
-            14.1 This TOS shall be valid and effective for an indefinite period unless the User stops use of the Services or this TOS is terminated by either party or this TOS is terminated pursuant to the provision herein. 
-            <br><br>
-            14.2 Bitkub can terminate the User Account pursuant to Clause 4.6(3) and any of the following cases:
-            <ul><p>
-                (1) In the case of no breach or no default under this TOS, Bitkub reserves the right to terminate this TOS with any User, provided that Bitkub  shall notify the User by at least 30 (thirty) days advance written notice, the User agrees and accept to settle all obligations and debts including any interest and cost owed to Bitkub within the period as set out by Bitkub.
-                <br><br>
-                (2)	If Bitkub decides to end, stop or terminate the Services (end of platform operation), Bitkub shall implement the process of termination of the Services in compliance to the Applicable Law.
-            </p></ul>
-            <h2>15. Governing Law and Dispute Resolution</h2>
-            <ul><p>
-                This TOS shall be governed by and construed in accordance with the laws of Thailand.
-                <br><br>
-                Any dispute, controversy or claim in relation to this TOS or any of Services performed hereunder which cannot be amicably resolved by the User and Bitkub shall be settled solely and finally by the competent court of Thailand.    
-            </p></ul>
-            <h2>16. Force Majeure</h2>
-            <ul><p>
-                Bitkub shall not be liable for any delays, failures in performance or interruption of the Services which result directly or indirectly from any cause or condition beyond our reasonable control, including but not limited to, any delay or failure due to halt of Blockchain, network congestion while transferring on Blockchain or any event that prevents the transfer on Blockchain from occurring and completing, any acts of god, act of civil or military authorities, act of terrorists, civil disturbance, war, strike or other labor dispute, fire, flooding, interruption in telecommunications or internet services or network provider services, failure of equipment and/or software, other catastrophe or any other occurrence which is beyond our commercially reasonable control and shall not affect the validity and enforceability of any remaining provisions.
-            </p></ul>
-            <h2>17. Disclaimer</h2>
-            17.1 The Services are provided on an “as is”, “as available” basis and Bitkub makes no representation, warranty, condition or undertaking of any kind, whether expressed or implied in respect of any part of the Services or the reliability or quality thereof. You acknowledge that Bitkub has not given any such representations, warranties, conditions or undertakings in respect of any part of the Services or the reliability or quality thereof. 
-            <br><br>
-            Bitkub do not warrant or certify the confidentiality or security of any information transmitted through the internet. You accept and agree that Bitkub shall not be liable for any Losses  arising from any electronic, mechanical, data failure or corruption, computer viruses, bugs or related problems that may be attributable to the Services  or any relevant internet service provider, network provider or communication network provider.
-            <br><br>
-            We recommend the User to implement anti-virus software and reliable standardization protection software. The User should also be aware that SMS and email services are vulnerable to spoofing and phishing attacks and should use care in reviewing messages purporting to originate from Bitkub. Hence, the User shall beware of the said action and review that such information originates from us.
-            <br><br>
-            Please always log into the User  Account through our website to review any transactions or required actions if the User has any uncertainty regarding the authenticity of any communication or notice.
-            <br><br>
-            To the extent permitted by the Applicable Law, Bitkub declines any responsibility regarding any activities conducted by a child with or without the permission of a parent.  If you are a child with or without permission of a parent.  If you are a parent and you give your permission for your child to register for one of the Services, you thereby agree to the terms relating to use of the Services by your child.  
-            <h2>18.	Computer Viruses and other Interruptions</h2>
-            <ul><p>
-                Bitkub shall not bear any liability, whatsoever, for any damages or interruptions caused by any computer viruses, spyware, scareware, trojan horses, worms, or other malware that may affect your computers or other equipment, or any phishing, spoofing, or other attacks.
-                <br><br>
-                We recommend you to implement anti-virus software and reliable standardization protection software on a regular basis. You should also be aware that SMS and email services are vulnerable to spoofing and phishing attacks, thus you should use care when reviewing messages purporting to originate from Bitkub. Hence, you shall beware of the aforementioned activities and ensure that such information originates from us.    
-            </p></ul>            
-        </div>
-        <h1>APPENDIX 1</h1>
-        <div class="detail">
-            <h2>Prohibited Use</h2>
-            By use of the Services, you affirm that you shall not use the Services to do any of the following (the "<strong>Prohibited Use</strong>"):
-            <ul>
-                <li> <strong>Unlawful Activities:</strong> activities which may violate, considered to be violated, or assist in violation of, any law, statute, ordinance, or regulation, as enforced in Thailand or any jurisdictions where we conduct our business, or which would involve the process of any unlawful activities; or activities which involves the publication, distribution or dissemination of any unlawful material or information;</li>
-                <br>
-                <li> <strong>Lèse Majesté Contents:</strong> any content that is or allegedly defames, insults, threatens or is unflattering to the royal family, includes national security and political issues, in violation of Article 112 of Thailand’s Criminal Code;</li>
-                <br>
-                <li> <strong>Pornography:</strong> media which includes obscene materials or materials that is solely created and disseminated for the prurient purposes;</li>
-                <br>
-                <li> <strong>Intellectual Property Infringement:</strong> any use that infringes the Intellectual Property Rights under the Applicable Law of each jurisdiction that KUB Arena is accessible, including but not limited to use of our Intellectual Property (including without limitation name, or logo, including use of our trade or service marks), other User’s or any third party’s Intellectual Property, without express written consent from us, or from other User’s or such third party or in any manner;</li>
-                <br>
-                <li> <strong>Illegal Computer Data:</strong> engage in transactions that involve, upload, or express any illegal computer data of which the definition of illegal computer data is varied under the Applicable Law of each jurisdiction that KUB Arena is accessible; or</li>
-                <br>
-                <li> <strong>Inappropriate Behaviors:</strong> engage in any activity that, in our sole discretion, creates nuisance, discrimination, obscenity, threats, hate speech, harassment, bullying, defamation, terrorism, violent extremism, fraud, deception, invasion of privacy, or otherwise injury to any third party.</li>
-            </ul>
-            <h2>Prohibited Business</h2>
-            In addition to the Prohibited Use described above, you are prohibited from engaging in the following business practices (“<strong>Prohibited Business</strong>”).
-            <br><br>
-            If you are uncertain as to whether or not your use of the Services involves a Prohibited Business, or have questions about how these requirements apply to you, please contact Bitkub at <a href="bitkubchain@bitkub.com">bitkubchain@bitkub.com</a>
-            <br><br>
-            By use of the Services, you affirm that you shall not use the Services to be in connection with any of following businesses, activities, practices, or items:
-            <ul>
-                <li> <strong>Investment and Credit Services:</strong> securities brokers; mortgage consulting or debt reduction services; credit counseling or repair; real estate opportunities; investment schemes;</li>
-                <br><li> <strong>Restricted Financial Services:</strong> collections agencies or any illegal financial services;</li>
-                <br><li> <strong>Intellectual Property or Proprietary Rights Infringement:</strong> sales, distribution, or access to counterfeit music, movies, software, or other licensed materials or intellectual property without the appropriate authorization from the rightful holder;</li>
-                <br><li> <strong>Counterfeit or Unauthorized Goods:</strong> unauthorized sale or resale of brand name or designer products or services; sale of goods or services that are illegally imported or exported or which are stolen;</li>
-                <br><li> <strong>Regulated Products and Services:</strong> marijuana dispensaries and related businesses; sale of tobacco, e-cigarettes, and e-liquid; sale of liquor and alcoholic beverages; online prescription or pharmaceutical services; age restricted goods or services; weapons and munitions; gunpowder and other explosives; fireworks and related goods; toxic, flammable, radioactive materials including any other goods and services that the advertising is prohibited under the Applicable Law;</li>
-                <br><li> <strong>Drugs and Drug Paraphernalia:</strong> sale of narcotics, controlled substances, and any equipment designed for making or using drugs, such as bongs, vaporizers, and hookahs;</li>
-                <br><li> <strong>Pseudo-Pharmaceuticals:</strong> pharmaceuticals and other products that make health claims that have not been approved or verified by the competent authority, applicable local and/or national and/or international regulatory bodies;</li>
-                <br><li> <strong>Substances Designed to Mimic Illegal Drugs:</strong> sale of a legal substance that provides the same effect as an illegal drug (e.g., salvia, kratom);</li>
-                <br><li> <strong>Adult Content and Services:</strong> pornography and other obscene materials (including literature, imagery and other media); sites offering any sexually-related services such as prostitution, escorts, pay-per view, adult live chat features;</li>
-                <br><li> <strong>Multi-Level Marketing:</strong> pyramid schemes, network marketing, and referral marketing programs;</li>
-                <br><li> <strong>Unfair, Predatory or Deceptive Practices:</strong> offer investment opportunities or other services that promise high rewards; sale or resale of a service without added benefit to the buyer; resale of government offerings without authorization or added value; sites that we determine in our sole discretion to be unfair, deceptive, or predatory towards consumers; or</li>
-                <br><li> <strong>High-risk Businesses:</strong> any businesses that we, by our sole discretion, believe that it shall elevate financial risk, legal liability or violates the Applicable Law.</li>
-            </ul>
-            <h2>Conditional Use</h2>
-            Advance express written consent and approval from us must be obtained before you can use the Services in connection with  the following categories of business and/or use (“<strong>Conditional Use</strong>”):<br><br>
-            <li><strong>Money Services:</strong> money transmitters, digital currency or Digital Asset transmitters; currency or digital currency or Digital Asset exchanges or dealers; gift cards; prepaid cards; sale of in-game currency; act as a payment intermediary or aggregator or otherwise resell any of the Services;</li><br>
-            <li><strong>Charities:</strong> acceptance of donations for nonprofit enterprises;</li>
-            <br><li><strong>Games of Skill:</strong>any type of games under the Gambling Act; or</li>
-            <br><li><strong>Religious/Spiritual Organizations:</strong> operation of a for profitable religious or spiritual organization.</li>
-            <br>
-            <ul><p>
-                Our consent may be requested by contacting us at <a href="bitkubchain@bitkub.com">bitkubchain@bitkub.com</a>. We may also require you to agree to additional conditions, make supplemental representations and warranties, complete enhanced on-boarding procedures, and operate subject to restrictions if you use the Services in connection with the Conditional Use.
-            </p></ul>
+                        However, you may not be able to exercise your rights or some exercise may appear to cost you if your request is in the scope of the following:
+                        <ol><li>
+                            (1) It is contrary to or inconsistent with the right set forth in Personal Data   Protection Act B.E. 2562, applicable law, or relevant notice;
+                            <br>
+                            (2) It is contrary to law or the court order;
+                            <br>
+                            (3) It effects to the right and freedom of other people;
+                            <br>
+                            (4) It is the dishonest, redundant, or unreasonable exercise of right; or
+                            <br>
+                            (5) It influences the investigation exercise of judicial rights or court proceedings, etc.
+                        </li></ol>
+                        Please note that the exercise of right mentioned above may lose you some benefit or privilege from our Services.
+                        <br>
+                        You can exercise your right via the Company’s LiveChat on website at <br>
+                        <a href="https://www.bitkubchain.com">https://www.bitkubchain.com</a>  <a href="https://www.bitkubnft.com  ">https://www.bitkubnft.com  </a>
+                        <br>Email <a href="bitkubchain@bitkub.com">bitkubchain@bitkub.com</a>  or
+                        <br>Facebook <a href="https://www.facebook.com/bitkubchainofficial">https://www.facebook.com/bitkubchainofficial</a>
+                    </li></ol>
+                </li><br>
+                <li><strong>Notification of changes</strong> <br>
+                    We value the respect of your privacy and the accuracy of your Personal Data. If your Personal Data has changed, please inform the Company immediately.
+                </li><br>
+                <li><strong>Right to investigate and file a claim</strong><br>
+                    In the event that you find that we have incorrectly processed your Personal Data or that the Personal Data breach has occurred, you have the right to complain to the expert committee which is responsible for considering the complaint under the Personal Data Protection Act B.E.2562 or claim a lawsuit and request to investigate the action that violates Personal Data according to the rights that you have according to the law.
+                </li><br>
+                <li><strong>Contact details</strong>
+                    <ul><li>
+                        <strong>Bitkub Blockchain Technology Co., Ltd.</strong> 2525 FYI Center Building 2, 11th Floor, 2/1101-2/1107 Units, Rama IV Road, Klong Toei Sub-district, Klong Toei District, Bangkok 10110 Tel. 02-032-9530 email: <a href="bitkubchain@bitkub.com ">bitkubchain@bitkub.com </a>
+                    </li>
+                <li>
+                    <strong>Data Protection Officer:</strong> 2525 FYI Center Building 2, 11th Floor, 2/1101-2/1107 Units, Rama IV Road, Klong Toei Sub-district, Klong Toei District, Bangkok 10110 email: <a href="dpo_bbt@bitkub.com ">dpo_bbt@bitkub.com </a> 
+                </li></ul>
+                </li>
+            </ol>
+            This Privacy Notice is updated on <span style="background-color: yellow;">[publish date]</span>
         </div>
     </body>
+    <footer>
+        <div class="footerBitkub">
+            <img src="footer_bitkub.png" alt="footer_bitkub">
+        </div>
+    </footer>
 </html>
