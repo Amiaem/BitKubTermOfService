@@ -5,16 +5,35 @@
     <link rel="icon" href="logo.png" sizes="16x16" type="image/png">
     <title>bitkub Term of Service</title>
     <style>
+        .LogoBitkub {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .LogoBitkub img {
+            height: 200%;
+            max-width: 200%;
+        }
+        .footerBitkub {
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footerBitkub img {
+            height: 200%;
+            max-width: 200%;
+        }
         body {
-    font-family: "Times New Roman", Times, serif;
-    line-height: 1.5;
-    margin: 0 auto;
-    text-align: justify;
-    max-width: 210mm; 
-    padding: 20px;
-    box-sizing: border-box; 
-    overflow-x: hidden; 
-    }
+            font-family: "Times New Roman", Times, serif;
+            line-height: 1.5;
+            margin: 0 auto;
+            text-align: justify;
+            max-width: 210mm; 
+            padding: 20px;
+            box-sizing: border-box; 
+            overflow-x: hidden; 
+        }
     body::-webkit-scrollbar {
             display: none;
             } 
@@ -38,160 +57,185 @@
     li {
         font-size: 20px;
     }
-
+    ol{
+            padding-left: 10px;
+    }
     ol ol li {
         list-style-type: none;
+        padding-left: 5px;
     }
 
     ul li {
         list-style-type: disc;
     }
     ul{
-            padding-left: 10px;
+            padding-left: 5px;
+    }
+    @media (max-width: 1024px) {
+            body {
+                max-width: 80%; /* ใช้เต็มจอ */
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+            }
+            .LogoBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .footerBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .detail {
+                font-size: 16px;
+            }
+            li {
+                font-size: 16px;
+            }
+            ul{
+                padding-left: 15px;
+            }
         }
     @media (max-width: 820px) {
         body {
             max-width: 80%;
             margin: 0 auto; /* ทำให้กลางหน้าจอ */
         }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            font-size: 20px;
-        }
-
-        h2 {
-            font-weight: bold;
-            margin: 18px 0;
-            font-size: 18px;
-        }
-
+        .LogoBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .footerBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
         .detail {
-            font-size: 18px;
+            font-size: 14px;
         }
 
         li {
-            font-size: 18px;
+            font-size: 14px;
         }
     }
     @media (max-width: 768px) {
-        body {
-            max-width: 80%;
-            margin: 0 auto; /* ทำให้กลางหน้าจอ */
+            body {
+                max-width: 80%; /* ใช้เต็มจอ */
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+                
+            }
+            .LogoBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .footerBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .detail {
+                font-size: 14px;
+            }
+            li {
+                font-size: 14px;
+            }
+            
         }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            font-size: 20px;
-        }
-
-        h2 {
-            font-weight: bold;
-            margin: 18px 0;
-            font-size: 18px;
-        }
-
-        .detail {
-            font-size: 18px;
-        }
-
-        li {
-            font-size: 18px;
-        }
-    }
-
     @media (max-width: 480px) {
-        body {
-            max-width: 90%;
-            margin: 0 auto; /* ทำให้กลางหน้าจอ */
+            body {
+                max-width: 90%; /* ใช้เต็มจอ */
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+            }
+            .LogoBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .footerBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            .detail {
+                font-size: 12px;
+            }
+            li {
+                font-size: 12px;
+            }
+            ul{
+                padding-left: 15px;
+            }
         }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            font-size: 18px;
-        }
-
-        h2 {
-            font-weight: bold;
-            margin: 18px 0;
-            font-size: 16px;
-        }
-
-        .detail {
-            font-size: 16px;
-        }
-
-        li {
-            font-size: 16px;
-        }
-        ul{
-            padding-left: 10px;
-        }
-    }
 
     @media (max-width: 375px) {
         body {
-            max-width: 90%;
-            margin: 0 auto; /* ทำให้กลางหน้าจอ */
-        }
+                max-width: 90%; /* ใช้เต็มจอ */
+                margin: 0 auto; /* ทำให้กลางหน้าจอ */
+                word-wrap: break-word; /* ตัดบรรทัดใหม่ถ้าคำยาวเกิน */
+                overflow-wrap: break-word; /* ตัดบรรทัดใหม่เมื่อคำยาวเกิน */
+            }
+            .LogoBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
+            .footerBitkub {
+                width: 65%;
+                margin: 0 auto;
+            }
         h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
             font-size: 18px;
         }
 
         h2 {
-            font-weight: bold;
-            margin: 18px 0;
             font-size: 16px;
         }
 
         .detail {
-            font-size: 16px;
+            font-size: 14px;
         }
 
         li {
-            font-size: 16px;
+            font-size: 14px;
         }
         ul{
-            padding-left: 10px;
+            padding-left: 5px;
+        }
+        ul p{
+                padding: 5px;
         }
     }
     @media (max-width: 344px) {
-        body {
-            max-width: 90%;
-            margin: 0 auto; /* ทำให้กลางหน้าจอ */
-        }
-        h1 {
-            font-weight: bold;
-            text-align: center;
-            margin: 20px 0;
-            font-size: 16px;
-        }
-
-        h2 {
-            font-weight: bold;
-            margin: 18px 0;
-            font-size: 14px;
-        }
-
-        .detail {
-            font-size: 14px;
-        }
-
-        li {
-            font-size: 14px;
-        }
-
-        ul{
-            padding-left: 10px;
-        }
+    body {
+        max-width: 90%; /* ใช้เต็มจอ */
+        margin: 0 auto;
     }
+    .LogoBitkub {
+        width: 63%; /* ปรับขนาดให้เล็กลง */
+        margin: 0 auto;
+    }
+    .footerBitkub {
+        width: 63%;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 14px; /* ลดขนาดฟอนต์ */
+    }
+    h2 {
+        font-size: 12px;
+    }
+    .detail {
+        font-size: 10px;
+    }
+    li {
+        font-size: 10px;
+    }
+
+    
+}
 </style>
+<head>
+    <div class="LogoBitkub"><img src="logo_bitkub.png" alt="logo_bitkub"></div>
+</head>
     <body>
         <h1>Term of Service</h1>
         <div class="detail">
@@ -770,4 +814,9 @@
             </p></ul>
         </div>
     </body>
+    <footer>
+        <div class="footerBitkub">
+            <img src="footer_bitkub.png" alt="footer_bitkub">
+        </div>
+    </footer>
 </html>
